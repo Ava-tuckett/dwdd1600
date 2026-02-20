@@ -1,0 +1,117 @@
+body{
+font-family: "Playwrite NZ Basic", cursive;
+margin: 0;
+}
+/*header stuff here */
+header{
+background-color: #f0dbdb;
+padding: 1rem 10px;
+}
+header span {
+font-size: 1.2rem;
+font-weight: 700;
+color: #ab7474;
+}
+
+/* navigation stuff here */
+nav {
+    background-color: #ab7474;
+}
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display:flex;
+}
+nav a {
+    display:block;
+    padding: .831rem 1rem;
+    text-decoration:double;
+    font-size: 1.1rem;
+    color: #f0dbdb;
+    font-weight:700;
+}
+nav li.active a{
+background-color: #cc9797;
+color: #a55a5a;
+}
+nav li a:hover {
+    color: #a55a5a;
+}
+
+/* main stuff here */
+main{
+    padding: 1rem 10px;
+}
+main h1 {
+    color:#ab7474;
+}
+main h2{
+    color:#a55a5a;
+    margin-bottom: .2rem;
+}
+main h3 {
+    color:#a55a5a;
+}
+main p {
+margin: 0;
+color:#a55a5a;
+}
+main ol{
+    padding: .5rem 30px;
+    background-color:#f0dbdb;
+
+}
+main dl dt {
+    color:#a55a5a;
+    font-weight:700;
+    margin-top: 1rem;
+}
+main dl dd {
+    color: #ab7474;
+    font-size: .9rem;
+    margin-left: 20px;
+}
+main ul{
+    list-style-type:circle;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+    color: #ab7474;
+}
+main strong {
+    color: #a55a5a;
+    font-weight: 700;
+}
+main em{
+    font-weight: 300;
+}
+main address {
+    font-style: italic;
+    background-color:#f0dbdb;
+    padding: .5rem;
+    border-radius: 10px;
+    border: 1px dashed #a55a5a;
+    width: 0;
+}
+main a{
+    color:#a55a5a;
+}
+main a:hover {
+    color: rgb(231,199,199)
+}
+
+/* footer stuff here */
+footer{
+    background-color:#f0dbdb;
+    text-align: center;
+    padding: 1rem 0;
+}
+footer p {
+    margin: 0;
+    font-size: .8rem;
+    color:#a55a5a;
+    letter-spacing: 3px;
+}
