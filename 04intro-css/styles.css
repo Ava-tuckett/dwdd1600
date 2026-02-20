@@ -94,7 +94,7 @@ main address {
     padding: .5rem;
     border-radius: 10px;
     border: 1px dashed #a55a5a;
-    width: 0;
+    width: 200px;
 }
 main a{
     color:#a55a5a;
