@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Ava Tuckett">
+    <meta name="description" content="learn about the care and facts about Ferrets">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic:wght@100..400&display=swap" rel="stylesheet">
+    <title>The Slinky Life: a guide to ferrets</title>
+</head>
+
+<body>
+    <!--start the page head-->
+    <header>
+        <img src="images/logo.png" alt="logo for ferrets" width="75.25" height="75">
+        <span>The Slinky Life: a guide to ferrets</span>
+    </header>
+    <!--start page navigation-->
+    <nav>
+          <ul>
+            <li><a href="index.html">a guide to Ferrets</a></li>
+            <li><a href="ferrets.html">how to take care of them</a></li>
+            <li><a href="pictures.html">how they look</a></li>
+            <li class ="active"><a href="forms.html">merchandise</a></li>
+             <li><a href="more.html">More</a></li>
+
+        </ul>
+     </nav>
+    <!--start the main content-->
+        <main>
+        <h1>Order Ferret merch here</h1>
+        
+        <form method="get" class="myForm" action="thanks.html">
+        <fieldset>
+         <legend>Customer Information </legend>
+         <label> First Name*<input type="text" name="fname" required></label>
+         <label> Last Name*<input type="text" name="lname" required></label>
+         <label> Cell number*<input type="text" name="phone" required></label>
+         <label> Email*<input type="text" name="email" required></label>
+         </fieldset>
+
+         <fieldset>
+            <legend>Delivery Method</legend>
+                <label><input type="radio" name="method" value="Amazon">Amazon Delivery</label>
+                <label><input type="radio" name="method" value="UPS"> UPS Delivery</label>
+                <label><input type="radio" name="method" value="FedEx"> FedEx</label>
+            </fieldset>
+
+            <fieldset>
+            <legend>Delivery Options</legend>
+                <label><input type="checkbox" name="porch" value="yes"> Front Porch</label>
+                <label><input type="checkbox" name="deck" value="yes"> Back Deck</label>
+                <label><input type="checkbox" name="driveway" value="yes"> Driveway</label>
+                <label><input type="checkbox" name="garage" value="yes"> Inside the Garage</label>
+
+                <label>Preferred Delivery Time
+                <select name="time">
+                <option value="none">Please Select</option>
+                <option value="overnight">Overnight</option>
+                <option value="2days">2 Days</option>
+                <option value="3days">3 Days</option>
+                <option value="N/A">N/A</option>
+                </select>
+                </label>
+
+            </fieldset>
+            
+            <label>Comments
+                <textarea name="comments"></textarea>
+            </label>
+
+
+
+            <input type="submit" value="Send Delivery Request">
+        </form>
+
+       
+
+    </main>
+    <!--start the page footer-->
+    <footer>
+        <p>&copy;2026 &bull; Ava Tuckett &bull; Web Development</p>
+
+    </footer>
+
+</body>
+
+</html>
